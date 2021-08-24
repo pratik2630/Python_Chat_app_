@@ -13,10 +13,9 @@ print(a)
 
 s = socket.socket(socket.AF_INET , socket.SOCK_DGRAM)
 
-s.bind( ( "192.168.43.162",1234 ) )                                   #Bind  socket  
+s.bind( ( "<Enter_Your_System_IP>",1234 ) )                                   #Bind  socket  
 receiver_ip = input("Enter Your Friend IP address:")    
-#Enter receiver IP"192.168.43.162"
-#receiver_port= int(input ("Enter receiver Port:"))			       #Enter receiver port
+
 
 print("""
 You are connected with your friend.
